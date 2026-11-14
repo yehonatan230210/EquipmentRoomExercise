@@ -114,7 +114,7 @@ class Program
         }
         catch (EquipmentUnavailableException ex)
         {
-            Console.WriteLine($"Exeption messege:  {ex.Message}, NumToBorrow: {ex.NumToBorrow}, TheDiff: {ex.TheDiffBetweenAmountAndAvailable}");
+            Console.WriteLine($"Exeption messege:  {ex.Message}, NumToBorroww: {ex.NumToBorrow}, TheDiff: {ex.TheDiffBetweenAmountAndAvailable}");
         }
         catch (ArgumentOutOfRangeException ex)
         {
